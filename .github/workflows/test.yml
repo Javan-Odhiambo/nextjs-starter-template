@@ -1,9 +1,12 @@
 //write a ci for running tests using github actions when code is pushed on any branch
 
 name: Test
-on: [push]
-branches:
-  - '*'
+on:
+  push:
+    branches: ['*']
+  pull_request:
+    branches: ["main"]
+
 jobs:
   test:
     runs-on: ubuntu-latest
