@@ -6,6 +6,56 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  
+  --primary-1: 222, 223, 225;
+  --primary-2: 214, 218, 222;
+  --primary-3: 202, 209, 218;
+  --primary-4: 187, 200, 216;
+  --primary-5: 169, 188, 212;
+  --primary-6: 149, 188, 216;
+  --primary-7: 149, 188, 216;
+  --primary-8: 125, 155, 193;
+  --primary-9: 96, 95, 137;
+  --primary-10: 47, 80, 121;
+  --primary-11: 44, 76, 117;
+  --primary-12: 23, 51, 87;
+
+  --secondary-1: 248, 247, 246;
+  --secondary-2: 246, 242, 240;
+  --secondary-3: 240, 231, 227;
+  --secondary-4: 234, 221, 214;
+  --secondary-5: 228, 210, 200;
+  --secondary-6: 221, 197, 184;
+  --secondary-7: 212, 179, 162;
+  --secondary-8: 197, 155, 130;
+  --secondary-9: 145, 105, 83;
+  --secondary-10: 126, 94, 77;
+  --secondary-11: 119, 87, 70;
+  --secondary-12: 60, 51, 46;
+
+  --tertiary-1: 234, 237, 238;
+  --tertiary-2: 225, 233, 235;
+  --tertiary-3: 209, 227, 233;
+  --tertiary-4: 192, 219, 228;
+  --tertiary-5: 174, 209, 220;
+  --tertiary-6: 152, 196, 210;
+  --tertiary-7: 124, 180, 196;
+  --tertiary-8: 78, 158, 180;
+  --tertiary-9: 0, 121, 145;
+  --tertiary-10: 0, 107, 131;
+  --tertiary-11: 0, 100, 123;
+  --tertiary-12: 25, 64, 74;
+  
+  --error-color:229 57 53;
+  --on-error-color:255 235 238;
+  --error-container:198 40 40;
+  --on-error-conatainer:255 205 210;
+
+  --success-color:67 160 71;
+  --on-success-color:232 245 233;
+  --success-container:46 125 50;
+  --on-success-conatainer:200 230 201;
+  
 }
 
 @media (prefers-color-scheme: dark) {
