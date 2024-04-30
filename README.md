@@ -53,3 +53,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
     ```
 6. **Push to Your Fork**: Push your changes to your forked repository
 7. **Contribute to the Project**: Open a pull request to contribute your changes to the project
+
+## Libraries used
+1. [Tailwind css](https://tailwindcss.com/)
+2. [Radix UI](https://www.radix-ui.com/)
+3. [Next Themes](https://github.com/pacocoursey/next-themes)
+4. [CVA (Class Variance Authority)](https://cva.style/docs)
+5. [Zod](https://zod.dev/)
+6. [React Hook Forms](https://react-hook-form.com/)
+7. [Jtestjs](https://jestjs.io/)
