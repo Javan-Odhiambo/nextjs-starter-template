@@ -35,6 +35,25 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
+## Developer Set Up Guide
+
+1. **Fork the Repository**: Click the "Fork" button on the top right of this repository's page. This will create a copy of the repository in your GitHub account.
+2. **Clone Your Fork**: On your forked repository, click the "Code" button and copy the URL. Open your terminal or command prompt, navigate to the directory where you want to work on the project, and run the following command:
+    ```bash
+    git clone <your-fork-url>
+    ```
+3. **Create a Branch**: Before making any changes, create a new branch for your work and name it your name. For example:
+    ```bash
+    git checkout -b <your_name>
+    ```
+4. **Do your tasks ;)**: Now you can do your tasks in your branch. 
+5. **Commit Your Changes**: After making your changes, commit them with a clear and concise commit message:
+    ```bash
+    git commit -m "A clear and concise commit message"
+    ```
+6. **Push to Your Fork**: Push your changes to your forked repository
+7. **Contribute to the Project**: Open a pull request to contribute your changes to the project
+
 ## Libraries used
 1. [Tailwind css](https://tailwindcss.com/)
 2. [Radix UI](https://www.radix-ui.com/)
