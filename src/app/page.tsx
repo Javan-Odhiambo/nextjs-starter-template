@@ -1,6 +1,8 @@
 "use client"
 import Button from "@/components/ui/Button";
 import ThemeChanger from "@/components/ui/ThemeChanger";
+import SignUpForm from "./SignUp/page";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen items-center justify-center bg-primary-app-bg relative" >
@@ -10,6 +12,7 @@ export default function Home() {
         <button className="bg-primary-solid-bg text-primary-high-constrast-text rounded-md w-fit">Sample</button>
         <p className="text-primary-high-contrast-text text-center">Text</p>
       </div>
+      <SignUpForm/>
     </main>
   );
 }
