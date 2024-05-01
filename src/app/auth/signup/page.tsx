@@ -38,8 +38,8 @@ const SignUpPage = () => {
         <div>
             <h1>Sign Up</h1>
             <form onSubmit={handleSubmit(onSubmit)}>
-                <InputField label="Name" id="name" register={register("name")} error={errors.password} />
-                <InputField label="Email" id="email" register={register("email")} error={errors.password} />
+                <InputField label="Name" id="name" register={register("name")} error={errors.name} />
+                <InputField label="Email" id="email" register={register("email")} error={errors.email} />
                 <InputField label="Password" id="password" register={register("password")} error={errors.password} />
                 <button type="submit">Sign Up</button>
             </form>
