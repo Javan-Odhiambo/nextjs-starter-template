@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "@/styles/css/globals.css";
 import { ThemeProvider } from 'next-themes'
+import { ReduxPovider } from "@/redux/ReduxProvider";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,9 +19,11 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-      <ThemeProvider attribute="class">
-        {children}
-      </ThemeProvider>   
+        <ReduxPovider>
+          <ThemeProvider attribute="class">
+            {children}
+          </ThemeProvider>   
+        </ReduxPovider>
       </body>
     </html>
   );
